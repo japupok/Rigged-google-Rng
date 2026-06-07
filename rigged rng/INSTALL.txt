@@ -1,0 +1,24 @@
+Rigged RNG - Chrome Extension Install
+
+This folder is the portable extension build.
+You can copy this whole "rigged rng" folder to another PC.
+No npm install, Node.js, or source project is needed.
+
+Install:
+1. Open Chrome.
+2. Go to chrome://extensions
+3. Turn on Developer mode.
+4. Click Load unpacked.
+5. Select this whole folder: rigged rng
+
+Important:
+- Select the "rigged rng" folder itself.
+- Do not select the parent "rng" folder.
+- Do not select a nested "dist" folder.
+
+Usage:
+1. Search Google for "random number generator".
+2. Open this extension popup.
+3. Enter target numbers like: 30,31,32
+4. Click Google's original Generate button.
+5. The queued target numbers will be used in order.
