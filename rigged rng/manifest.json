@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Google RNG Overlay",
+  "version": "1.2.0",
+  "description": "Enhanced Google Random Number Generator with target numbers and custom controls",
+  
+  "content_scripts": [{
+    "matches": [
+      "https://www.google.com/search*",
+      "https://google.com/search*"
+    ],
+    "js": ["index.bundle.js"],
+    "run_at": "document_end"
+  }],
+  
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_title": "RNG Overlay Settings"
+  },
+  
+  "permissions": [
+    "storage"
+  ],
+  
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
